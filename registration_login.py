@@ -11,7 +11,7 @@ c.execute("""CREATE TABLE IF NOT EXISTS user(
         username text,
         email text,
         password text
-    )""")
+        )""")
 
 #create registration window
 def register():
